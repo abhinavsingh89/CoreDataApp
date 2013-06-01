@@ -10,8 +10,12 @@
         <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="parentEmployee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EmployeeDetails" inverseName="employeePhones" inverseEntity="EmployeeDetails" syncable="YES"/>
     </entity>
+    <entity name="Jhkkkjh" syncable="YES">
+        <attribute name="fhg" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
     <elements>
         <element name="EmployeeDetails" positionX="-81" positionY="45" width="128" height="103"/>
         <element name="EmployeePhones" positionX="160" positionY="192" width="128" height="73"/>
+        <element name="Jhkkkjh" positionX="160" positionY="192" width="128" height="60"/>
     </elements>
 </model>

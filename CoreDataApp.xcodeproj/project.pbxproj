@@ -20,7 +20,10 @@
 		AD60D3D3175A6AB800116BDB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD60D3D1175A6AB800116BDB /* ViewController.xib */; };
 		AD60D3DA175A6AD300116BDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD60D3D9175A6AD300116BDB /* CoreData.framework */; };
 		AD60D3DD175A6C8900116BDB /* FirstCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3DB175A6C8900116BDB /* FirstCoreData.xcdatamodeld */; };
-		AD60D3E0175A6F6100116BDB /* EmployeeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3DF175A6F6100116BDB /* EmployeeDetails.m */; };
+		AD60D3E3175A887800116BDB /* EmployeePhones.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3E2175A887800116BDB /* EmployeePhones.m */; };
+		AD60D3E6175A888800116BDB /* EmployeeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3E5175A888800116BDB /* EmployeeDetails.m */; };
+		AD60D3EE175A8EAA00116BDB /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3EB175A8EAA00116BDB /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD60D3EF175A8EAA00116BDB /* XMLNodeString.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60D3ED175A8EAA00116BDB /* XMLNodeString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +45,16 @@
 		AD60D3D2175A6AB800116BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		AD60D3D9175A6AD300116BDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD60D3DC175A6C8900116BDB /* FirstCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstCoreData.xcdatamodel; sourceTree = "<group>"; };
-		AD60D3DE175A6F6100116BDB /* EmployeeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetails.h; sourceTree = "<group>"; };
-		AD60D3DF175A6F6100116BDB /* EmployeeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetails.m; sourceTree = "<group>"; };
+		AD60D3E1175A887800116BDB /* EmployeePhones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeePhones.h; sourceTree = "<group>"; };
+		AD60D3E2175A887800116BDB /* EmployeePhones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeePhones.m; sourceTree = "<group>"; };
+		AD60D3E4175A888800116BDB /* EmployeeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetails.h; sourceTree = "<group>"; };
+		AD60D3E5175A888800116BDB /* EmployeeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetails.m; sourceTree = "<group>"; };
+		AD60D3E7175A8B4000116BDB /* FirstCoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FirstCoreData 2.xcdatamodel"; sourceTree = "<group>"; };
+		AD60D3E9175A8EAA00116BDB /* GDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDefines.h; sourceTree = "<group>"; };
+		AD60D3EA175A8EAA00116BDB /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		AD60D3EB175A8EAA00116BDB /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		AD60D3EC175A8EAA00116BDB /* XMLNodeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNodeString.h; sourceTree = "<group>"; };
+		AD60D3ED175A8EAA00116BDB /* XMLNodeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNodeString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +75,12 @@
 		AD60D3AA175A6AB700116BDB = {
 			isa = PBXGroup;
 			children = (
+				AD60D3E4175A888800116BDB /* EmployeeDetails.h */,
+				AD60D3E5175A888800116BDB /* EmployeeDetails.m */,
 				AD60D3DB175A6C8900116BDB /* FirstCoreData.xcdatamodeld */,
-				AD60D3DE175A6F6100116BDB /* EmployeeDetails.h */,
-				AD60D3DF175A6F6100116BDB /* EmployeeDetails.m */,
+				AD60D3E1175A887800116BDB /* EmployeePhones.h */,
+				AD60D3E2175A887800116BDB /* EmployeePhones.m */,
+				AD60D3E8175A8EAA00116BDB /* GDataXML */,
 				AD60D3D9175A6AD300116BDB /* CoreData.framework */,
 				AD60D3BC175A6AB700116BDB /* CoreDataApp */,
 				AD60D3B5175A6AB700116BDB /* Frameworks */,
@@ -117,6 +131,18 @@
 				AD60D3CC175A6AB800116BDB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD60D3E8175A8EAA00116BDB /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				AD60D3E9175A8EAA00116BDB /* GDataDefines.h */,
+				AD60D3EA175A8EAA00116BDB /* GDataXMLNode.h */,
+				AD60D3EB175A8EAA00116BDB /* GDataXMLNode.m */,
+				AD60D3EC175A8EAA00116BDB /* XMLNodeString.h */,
+				AD60D3ED175A8EAA00116BDB /* XMLNodeString.m */,
+			);
+			path = GDataXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +215,10 @@
 				AD60D3C7175A6AB800116BDB /* AppDelegate.m in Sources */,
 				AD60D3D0175A6AB800116BDB /* ViewController.m in Sources */,
 				AD60D3DD175A6C8900116BDB /* FirstCoreData.xcdatamodeld in Sources */,
-				AD60D3E0175A6F6100116BDB /* EmployeeDetails.m in Sources */,
+				AD60D3E3175A887800116BDB /* EmployeePhones.m in Sources */,
+				AD60D3E6175A888800116BDB /* EmployeeDetails.m in Sources */,
+				AD60D3EE175A8EAA00116BDB /* GDataXMLNode.m in Sources */,
+				AD60D3EF175A8EAA00116BDB /* XMLNodeString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +305,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataApp/CoreDataApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "CoreDataApp/CoreDataApp-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,7 +318,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataApp/CoreDataApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "CoreDataApp/CoreDataApp-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -319,9 +352,10 @@
 		AD60D3DB175A6C8900116BDB /* FirstCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				AD60D3E7175A8B4000116BDB /* FirstCoreData 2.xcdatamodel */,
 				AD60D3DC175A6C8900116BDB /* FirstCoreData.xcdatamodel */,
 			);
-			currentVersion = AD60D3DC175A6C8900116BDB /* FirstCoreData.xcdatamodel */;
+			currentVersion = AD60D3E7175A8B4000116BDB /* FirstCoreData 2.xcdatamodel */;
 			path = FirstCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

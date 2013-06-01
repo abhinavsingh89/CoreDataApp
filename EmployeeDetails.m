@@ -7,9 +7,14 @@
 //
 
 #import "EmployeeDetails.h"
+#import "EmployeePhones.h"
+
 
 @implementation EmployeeDetails
 
-@dynamic employeeEmail, employeeId, name;
+@dynamic name;
+@dynamic employeeId;
+@dynamic employeeEmail;
+@dynamic employeePhones;
 
 @end
